@@ -1,0 +1,47 @@
+
+Call:
+lm(formula = Price ~ ., data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-537996  -21053   -2933   17926  379320 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   -1.077e+05  1.285e+06  -0.084 0.933253    
+LotFrontage    1.042e+00  4.524e+01   0.023 0.981619    
+LotArea        6.222e-01  1.510e-01   4.122 3.90e-05 ***
+YearBuilt      1.985e+02  5.755e+01   3.450 0.000572 ***
+YearRemodAdd   5.565e+02  5.659e+01   9.835  < 2e-16 ***
+MasVnrArea     5.644e+01  5.385e+00  10.481  < 2e-16 ***
+BsmtFinSF1     1.463e+01  2.921e+00   5.007 5.94e-07 ***
+BsmFinSF2      4.528e-01  5.462e+00   0.083 0.933937    
+TotalBsmtSF    3.765e+01  2.868e+00  13.131  < 2e-16 ***
+BsmtFullBath   6.462e+03  2.343e+03   2.759 0.005852 ** 
+BsmtHalfBath  -3.978e+03  3.711e+03  -1.072 0.283895    
+FullBath       1.880e+04  2.322e+03   8.098 9.09e-16 ***
+HalfBath       1.200e+04  2.064e+03   5.812 7.07e-09 ***
+Bedroom       -8.842e+03  1.523e+03  -5.806 7.29e-09 ***
+Kitchen       -5.176e+04  4.925e+03 -10.510  < 2e-16 ***
+TotRmsAbvGrd   1.296e+04  9.618e+02  13.475  < 2e-16 ***
+Fireplaces     1.245e+04  1.543e+03   8.071 1.12e-15 ***
+GarageYrBlt   -6.393e+01  6.854e+01  -0.933 0.351099    
+GarageCars     1.209e+04  2.630e+03   4.596 4.56e-06 ***
+GarageArea     4.534e+01  9.045e+00   5.012 5.80e-07 ***
+WoodDeckSf     3.274e+01  7.457e+00   4.391 1.18e-05 ***
+OpenPorchSF    1.360e+01  1.406e+01   0.967 0.333656    
+EnclosedPorch  3.316e+01  1.436e+01   2.310 0.021003 *  
+`3SsnPorch`    1.783e+01  3.313e+01   0.538 0.590561    
+ScreenPorch    7.807e+01  1.488e+01   5.245 1.71e-07 ***
+PoolArea      -4.338e+01  2.315e+01  -1.874 0.061037 .  
+Miscval       -1.500e+01  1.677e+00  -8.945  < 2e-16 ***
+Mosold         2.162e+00  3.117e+02   0.007 0.994465    
+YrSold        -6.153e+02  6.395e+02  -0.962 0.336084    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 39480 on 2245 degrees of freedom
+  (656 observations deleted due to missingness)
+Multiple R-squared:  0.7784,	Adjusted R-squared:  0.7756 
+F-statistic: 281.6 on 28 and 2245 DF,  p-value: < 2.2e-16
+

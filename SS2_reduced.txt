@@ -1,0 +1,26 @@
+Anova Table (Type II tests)
+
+Response: Price
+                  Sum Sq   Df  F value    Pr(>F)    
+LotArea       2.7634e+10    1  18.9151 1.414e-05 ***
+YearBuilt     4.2089e+10    1  28.8095 8.620e-08 ***
+YearRemodAdd  2.3638e+11    1 161.7981 < 2.2e-16 ***
+MasVnrArea    2.0461e+11    1 140.0554 < 2.2e-16 ***
+BsmtFinSF1    4.3975e+10    1  30.1009 4.457e-08 ***
+TotalBsmtSF   3.8209e+11    1 261.5372 < 2.2e-16 ***
+BsmtFullBath  1.9478e+10    1  13.3329 0.0002654 ***
+FullBath      1.4532e+11    1  99.4741 < 2.2e-16 ***
+HalfBath      5.9462e+10    1  40.7014 2.059e-10 ***
+Bedroom       8.5944e+10    1  58.8283 2.336e-14 ***
+Kitchen       1.7570e+11    1 120.2653 < 2.2e-16 ***
+TotRmsAbvGrd  4.2204e+11    1 288.8843 < 2.2e-16 ***
+Fireplaces    1.2650e+11    1  86.5879 < 2.2e-16 ***
+GarageCars    1.3223e+10    1   9.0514 0.0026477 ** 
+GarageArea    4.3120e+10    1  29.5154 6.009e-08 ***
+WoodDeckSf    2.8448e+10    1  19.4727 1.058e-05 ***
+EnclosedPorch 1.3268e+10    1   9.0822 0.0026035 ** 
+ScreenPorch   4.5532e+10    1  31.1663 2.589e-08 ***
+Miscval       7.4717e+10    1  51.1434 1.084e-12 ***
+Residuals     4.2133e+12 2884                       
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

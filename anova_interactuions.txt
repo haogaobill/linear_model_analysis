@@ -1,0 +1,173 @@
+Analysis of Variance Table
+
+Response: Price
+                             Df     Sum Sq    Mean Sq   F value    Pr(>F)    
+LotArea                       1 1.3060e+12 1.3060e+12 1649.8967 < 2.2e-16 ***
+YearBuilt                     1 5.6315e+12 5.6315e+12 7114.1674 < 2.2e-16 ***
+YearRemodAdd                  1 1.0643e+12 1.0643e+12 1344.5173 < 2.2e-16 ***
+MasVnrArea                    1 1.8979e+12 1.8979e+12 2397.5262 < 2.2e-16 ***
+BsmtFinSF1                    1 6.3251e+11 6.3251e+11  799.0454 < 2.2e-16 ***
+TotalBsmtSF                   1 1.0649e+12 1.0649e+12 1345.3043 < 2.2e-16 ***
+BsmtFullBath                  1 3.1785e+07 3.1785e+07    0.0402 0.8411960    
+FullBath                      1 6.7770e+11 6.7770e+11  856.1260 < 2.2e-16 ***
+HalfBath                      1 4.6087e+11 4.6087e+11  582.2080 < 2.2e-16 ***
+Bedroom                       1 1.0941e+06 1.0941e+06    0.0014 0.9703468    
+Kitchen                       1 1.4323e+11 1.4323e+11  180.9461 < 2.2e-16 ***
+TotRmsAbvGrd                  1 7.0582e+11 7.0582e+11  891.6550 < 2.2e-16 ***
+Fireplaces                    1 2.0971e+11 2.0971e+11  264.9284 < 2.2e-16 ***
+GarageCars                    1 2.8731e+11 2.8731e+11  362.9604 < 2.2e-16 ***
+GarageArea                    1 4.7305e+10 4.7305e+10   59.7599 1.498e-14 ***
+WoodDeckSf                    1 1.6676e+10 1.6676e+10   21.0661 4.639e-06 ***
+EnclosedPorch                 1 7.9785e+09 7.9785e+09   10.0791 0.0015164 ** 
+ScreenPorch                   1 4.5229e+10 4.5229e+10   57.1377 5.524e-14 ***
+Miscval                       1 7.4717e+10 7.4717e+10   94.3887 < 2.2e-16 ***
+LotArea:YearBuilt             1 1.5736e+10 1.5736e+10   19.8797 8.582e-06 ***
+LotArea:YearRemodAdd          1 7.7008e+09 7.7008e+09    9.7284 0.0018335 ** 
+LotArea:MasVnrArea            1 4.3606e+10 4.3606e+10   55.0866 1.535e-13 ***
+LotArea:BsmtFinSF1            1 3.7095e+11 3.7095e+11  468.6179 < 2.2e-16 ***
+LotArea:TotalBsmtSF           1 4.2687e+05 4.2687e+05    0.0005 0.9814749    
+LotArea:BsmtFullBath          1 1.5297e+11 1.5297e+11  193.2433 < 2.2e-16 ***
+LotArea:FullBath              1 8.7677e+08 8.7677e+08    1.1076 0.2926946    
+LotArea:HalfBath              1 1.5602e+10 1.5602e+10   19.7098 9.374e-06 ***
+LotArea:Bedroom               1 6.8210e+08 6.8210e+08    0.8617 0.3533506    
+LotArea:Kitchen               1 1.1568e+10 1.1568e+10   14.6139 0.0001349 ***
+LotArea:TotRmsAbvGrd          1 2.0734e+09 2.0734e+09    2.6193 0.1056864    
+LotArea:Fireplaces            1 2.2523e+09 2.2523e+09    2.8453 0.0917547 .  
+LotArea:GarageCars            1 1.8131e+10 1.8131e+10   22.9049 1.793e-06 ***
+LotArea:GarageArea            1 2.6718e+09 2.6718e+09    3.3753 0.0662912 .  
+LotArea:WoodDeckSf            1 3.0250e+09 3.0250e+09    3.8214 0.0507037 .  
+LotArea:EnclosedPorch         1 1.0919e+09 1.0919e+09    1.3793 0.2403196    
+LotArea:ScreenPorch           1 9.9155e+09 9.9155e+09   12.5261 0.0004081 ***
+LotArea:Miscval               1 1.2826e+11 1.2826e+11  162.0237 < 2.2e-16 ***
+YearBuilt:YearRemodAdd        1 1.0171e+11 1.0171e+11  128.4841 < 2.2e-16 ***
+YearBuilt:MasVnrArea          1 2.1552e+11 2.1552e+11  272.2656 < 2.2e-16 ***
+YearBuilt:BsmtFinSF1          1 1.0472e+11 1.0472e+11  132.2964 < 2.2e-16 ***
+YearBuilt:TotalBsmtSF         1 9.5723e+10 9.5723e+10  120.9249 < 2.2e-16 ***
+YearBuilt:BsmtFullBath        1 1.1118e+09 1.1118e+09    1.4045 0.2360738    
+YearBuilt:FullBath            1 1.4028e+09 1.4028e+09    1.7722 0.1832258    
+YearBuilt:HalfBath            1 4.5918e+09 4.5918e+09    5.8007 0.0160862 *  
+YearBuilt:Bedroom             1 4.4980e+09 4.4980e+09    5.6822 0.0172058 *  
+YearBuilt:Kitchen             1 2.2600e+05 2.2600e+05    0.0003 0.9865200    
+YearBuilt:TotRmsAbvGrd        1 1.9473e+10 1.9473e+10   24.6006 7.488e-07 ***
+YearBuilt:Fireplaces          1 1.1073e+10 1.1073e+10   13.9878 0.0001878 ***
+YearBuilt:GarageCars          1 1.1655e+10 1.1655e+10   14.7232 0.0001273 ***
+YearBuilt:GarageArea          1 1.2354e+10 1.2354e+10   15.6063 7.998e-05 ***
+YearBuilt:WoodDeckSf          1 5.8605e+09 5.8605e+09    7.4035 0.0065512 ** 
+YearBuilt:EnclosedPorch       1 8.9800e+08 8.9800e+08    1.1344 0.2869265    
+YearBuilt:ScreenPorch         1 2.0120e+08 2.0120e+08    0.2542 0.6141918    
+YearBuilt:Miscval             1 1.4172e+09 1.4172e+09    1.7903 0.1809962    
+YearRemodAdd:MasVnrArea       1 1.0705e+10 1.0705e+10   13.5229 0.0002403 ***
+YearRemodAdd:BsmtFinSF1       1 5.5297e+09 5.5297e+09    6.9855 0.0082643 ** 
+YearRemodAdd:TotalBsmtSF      1 4.5771e+10 4.5771e+10   57.8212 3.930e-14 ***
+YearRemodAdd:BsmtFullBath     1 6.3617e+08 6.3617e+08    0.8037 0.3700805    
+YearRemodAdd:FullBath         1 1.9287e+10 1.9287e+10   24.3646 8.454e-07 ***
+YearRemodAdd:HalfBath         1 4.1324e+10 4.1324e+10   52.2045 6.469e-13 ***
+YearRemodAdd:Bedroom          1 8.0941e+09 8.0941e+09   10.2252 0.0014013 ** 
+YearRemodAdd:Kitchen          1 4.6411e+09 4.6411e+09    5.8630 0.0155275 *  
+YearRemodAdd:TotRmsAbvGrd     1 1.0027e+10 1.0027e+10   12.6675 0.0003784 ***
+YearRemodAdd:Fireplaces       1 9.5663e+09 9.5663e+09   12.0850 0.0005163 ***
+YearRemodAdd:GarageCars       1 1.4102e+10 1.4102e+10   17.8153 2.514e-05 ***
+YearRemodAdd:GarageArea       1 8.2276e+09 8.2276e+09   10.3937 0.0012794 ** 
+YearRemodAdd:WoodDeckSf       1 1.0940e+09 1.0940e+09    1.3821 0.2398515    
+YearRemodAdd:EnclosedPorch    1 3.3134e+08 3.3134e+08    0.4186 0.5177031    
+YearRemodAdd:ScreenPorch      1 4.8277e+09 4.8277e+09    6.0987 0.0135892 *  
+YearRemodAdd:Miscval          1 2.8655e+08 2.8655e+08    0.3620 0.5474513    
+MasVnrArea:BsmtFinSF1         1 2.9184e+09 2.9184e+09    3.6868 0.0549494 .  
+MasVnrArea:TotalBsmtSF        1 6.3436e+09 6.3436e+09    8.0138 0.0046764 ** 
+MasVnrArea:BsmtFullBath       1 6.6813e+08 6.6813e+08    0.8440 0.3583263    
+MasVnrArea:FullBath           1 1.8347e+10 1.8347e+10   23.1769 1.559e-06 ***
+MasVnrArea:HalfBath           1 1.2654e+10 1.2654e+10   15.9853 6.554e-05 ***
+MasVnrArea:Bedroom            1 1.1171e+10 1.1171e+10   14.1125 0.0001758 ***
+MasVnrArea:Kitchen            1 3.1081e+09 3.1081e+09    3.9264 0.0476330 *  
+MasVnrArea:TotRmsAbvGrd       1 4.9421e+09 4.9421e+09    6.2432 0.0125256 *  
+MasVnrArea:Fireplaces         1 4.3852e+09 4.3852e+09    5.5398 0.0186600 *  
+MasVnrArea:GarageCars         1 1.9334e+10 1.9334e+10   24.4244 8.199e-07 ***
+MasVnrArea:GarageArea         1 1.1436e+09 1.1436e+09    1.4447 0.2294897    
+MasVnrArea:WoodDeckSf         1 1.5787e+10 1.5787e+10   19.9433 8.303e-06 ***
+MasVnrArea:EnclosedPorch      1 1.3417e+09 1.3417e+09    1.6949 0.1930678    
+MasVnrArea:ScreenPorch        1 5.0234e+09 5.0234e+09    6.3460 0.0118216 *  
+MasVnrArea:Miscval            1 5.7797e+06 5.7797e+06    0.0073 0.9319115    
+BsmtFinSF1:TotalBsmtSF        1 1.0376e+10 1.0376e+10   13.1081 0.0002994 ***
+BsmtFinSF1:BsmtFullBath       1 1.1354e+08 1.1354e+08    0.1434 0.7049265    
+BsmtFinSF1:FullBath           1 3.5095e+09 3.5095e+09    4.4335 0.0353311 *  
+BsmtFinSF1:HalfBath           1 1.3876e+09 1.3876e+09    1.7529 0.1856228    
+BsmtFinSF1:Bedroom            1 3.1555e+10 3.1555e+10   39.8634 3.171e-10 ***
+BsmtFinSF1:Kitchen            1 7.0207e+09 7.0207e+09    8.8692 0.0029260 ** 
+BsmtFinSF1:TotRmsAbvGrd       1 7.5328e+09 7.5328e+09    9.5161 0.0020573 ** 
+BsmtFinSF1:Fireplaces         1 8.4977e+09 8.4977e+09   10.7350 0.0010645 ** 
+BsmtFinSF1:GarageCars         1 5.1737e+09 5.1737e+09    6.5358 0.0106264 *  
+BsmtFinSF1:GarageArea         1 1.8220e+09 1.8220e+09    2.3017 0.1293454    
+BsmtFinSF1:WoodDeckSf         1 6.5865e+07 6.5865e+07    0.0832 0.7730213    
+BsmtFinSF1:EnclosedPorch      1 7.0956e+08 7.0956e+08    0.8964 0.3438392    
+BsmtFinSF1:ScreenPorch        1 2.3807e+09 2.3807e+09    3.0075 0.0829961 .  
+BsmtFinSF1:Miscval            1 6.4390e+09 6.4390e+09    8.1343 0.0043764 ** 
+TotalBsmtSF:BsmtFullBath      1 4.7024e+08 4.7024e+08    0.5941 0.4409237    
+TotalBsmtSF:FullBath          1 2.5567e+09 2.5567e+09    3.2298 0.0724193 .  
+TotalBsmtSF:HalfBath          1 2.1707e+10 2.1707e+10   27.4222 1.761e-07 ***
+TotalBsmtSF:Bedroom           1 2.5204e+09 2.5204e+09    3.1840 0.0744726 .  
+TotalBsmtSF:Kitchen           1 2.0188e+10 2.0188e+10   25.5029 4.710e-07 ***
+TotalBsmtSF:TotRmsAbvGrd      1 9.9722e+09 9.9722e+09   12.5977 0.0003928 ***
+TotalBsmtSF:Fireplaces        1 5.7145e+09 5.7145e+09    7.2191 0.0072573 ** 
+TotalBsmtSF:GarageCars        1 2.7219e+08 2.7219e+08    0.3439 0.5576596    
+TotalBsmtSF:GarageArea        1 6.4085e+09 6.4085e+09    8.0958 0.0044701 ** 
+TotalBsmtSF:WoodDeckSf        1 2.9110e+09 2.9110e+09    3.6774 0.0552588 .  
+TotalBsmtSF:EnclosedPorch     1 4.0200e+08 4.0200e+08    0.5078 0.4761378    
+TotalBsmtSF:ScreenPorch       1 8.0430e+09 8.0430e+09   10.1606 0.0014510 ** 
+TotalBsmtSF:Miscval           1 2.3953e+09 2.3953e+09    3.0260 0.0820543 .  
+BsmtFullBath:FullBath         1 6.1017e+09 6.1017e+09    7.7082 0.0055347 ** 
+BsmtFullBath:HalfBath         1 7.4549e+08 7.4549e+08    0.9418 0.3319102    
+BsmtFullBath:Bedroom          1 7.8927e+09 7.8927e+09    9.9708 0.0016079 ** 
+BsmtFullBath:Kitchen          1 1.2819e+08 1.2819e+08    0.1619 0.6874068    
+BsmtFullBath:TotRmsAbvGrd     1 5.4181e+08 5.4181e+08    0.6845 0.4081275    
+BsmtFullBath:Fireplaces       1 4.9422e+09 4.9422e+09    6.2434 0.0125244 *  
+BsmtFullBath:GarageCars       1 1.6734e+09 1.6734e+09    2.1139 0.1460789    
+BsmtFullBath:GarageArea       1 7.1907e+08 7.1907e+08    0.9084 0.3406278    
+BsmtFullBath:WoodDeckSf       1 9.7721e+07 9.7721e+07    0.1234 0.7253498    
+BsmtFullBath:EnclosedPorch    1 1.3126e+08 1.3126e+08    0.1658 0.6838858    
+BsmtFullBath:ScreenPorch      1 5.0149e+07 5.0149e+07    0.0634 0.8012918    
+BsmtFullBath:Miscval          1 1.5165e+09 1.5165e+09    1.9158 0.1664313    
+FullBath:HalfBath             1 1.5088e+10 1.5088e+10   19.0604 1.314e-05 ***
+FullBath:Bedroom              1 1.6533e+10 1.6533e+10   20.8863 5.092e-06 ***
+FullBath:Kitchen              1 2.0528e+09 2.0528e+09    2.5933 0.1074342    
+FullBath:TotRmsAbvGrd         1 7.5567e+08 7.5567e+08    0.9546 0.3286311    
+FullBath:Fireplaces           1 6.1425e+09 6.1425e+09    7.7598 0.0053794 ** 
+FullBath:GarageCars           1 7.2826e+09 7.2826e+09    9.2000 0.0024431 ** 
+FullBath:GarageArea           1 1.6291e+10 1.6291e+10   20.5806 5.966e-06 ***
+FullBath:WoodDeckSf           1 6.5298e+09 6.5298e+09    8.2489 0.0041092 ** 
+FullBath:EnclosedPorch        1 1.8398e+07 1.8398e+07    0.0232 0.8788405    
+FullBath:ScreenPorch          1 1.2480e+08 1.2480e+08    0.1577 0.6913514    
+FullBath:Miscval              1 4.7538e+08 4.7538e+08    0.6005 0.4384394    
+HalfBath:Bedroom              1 1.0967e+08 1.0967e+08    0.1385 0.7097637    
+HalfBath:Kitchen              1 1.8752e+10 1.8752e+10   23.6886 1.197e-06 ***
+HalfBath:TotRmsAbvGrd         1 7.1316e+09 7.1316e+09    9.0093 0.0027106 ** 
+HalfBath:Fireplaces           1 6.6263e+09 6.6263e+09    8.3709 0.0038431 ** 
+HalfBath:GarageCars           1 2.4648e+09 2.4648e+09    3.1138 0.0777446 .  
+HalfBath:GarageArea           1 5.6864e+08 5.6864e+08    0.7184 0.3967597    
+HalfBath:WoodDeckSf           1 7.1671e+07 7.1671e+07    0.0905 0.7635143    
+HalfBath:EnclosedPorch        1 5.0982e+08 5.0982e+08    0.6440 0.4223212    
+HalfBath:ScreenPorch          1 6.8089e+08 6.8089e+08    0.8602 0.3537769    
+HalfBath:Miscval              1 3.7812e+08 3.7812e+08    0.4777 0.4895366    
+Bedroom:Kitchen               1 1.9992e+07 1.9992e+07    0.0253 0.8737446    
+Bedroom:TotRmsAbvGrd          1 7.6551e+08 7.6551e+08    0.9671 0.3255017    
+Bedroom:Fireplaces            1 1.2675e+10 1.2675e+10   16.0118 6.463e-05 ***
+Bedroom:GarageCars            1 5.1785e+08 5.1785e+08    0.6542 0.4186892    
+Bedroom:GarageArea            1 1.7225e+09 1.7225e+09    2.1760 0.1402948    
+Bedroom:WoodDeckSf            1 3.7762e+09 3.7762e+09    4.7704 0.0290380 *  
+Bedroom:EnclosedPorch         1 1.7183e+08 1.7183e+08    0.2171 0.6413152    
+Bedroom:ScreenPorch           1 1.3847e+09 1.3847e+09    1.7493 0.1860785    
+Bedroom:Miscval               1 1.3507e+09 1.3507e+09    1.7063 0.1915808    
+Kitchen:TotRmsAbvGrd          1 2.4138e+09 2.4138e+09    3.0493 0.0808833 .  
+Kitchen:Fireplaces            1 1.7768e+08 1.7768e+08    0.2245 0.6356977    
+Kitchen:GarageCars            1 1.2388e+10 1.2388e+10   15.6495 7.819e-05 ***
+Kitchen:GarageArea            1 3.2237e+09 3.2237e+09    4.0724 0.0436869 *  
+Kitchen:WoodDeckSf            1 1.4247e+08 1.4247e+08    0.1800 0.6714210    
+Kitchen:EnclosedPorch         1 2.7894e+08 2.7894e+08    0.3524 0.5528204    
+Kitchen:ScreenPorch           1 9.4538e+08 9.4538e+08    1.1943 0.2745641    
+Kitchen:Miscval               1 1.6241e+08 1.6241e+08    0.2052 0.6506158    
+TotRmsAbvGrd:Fireplaces       1 4.5064e+09 4.5064e+09    5.6929 0.0171017 *  
+TotRmsAbvGrd:GarageCars       1 1.3621e+10 1.3621e+10   17.2066 3.456e-05 ***
+TotRmsAbvGrd:GarageArea       1 1.3209e+06 1.3209e+06    0.0017 0.9674194    
+TotRmsAbvGrd:WoodDeckSf       1 5.5268e+09 5.5268e+09    6.9819 0.0082811 ** 
+ [ reached getOption("max.print") -- omitted 25 rows ]
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
